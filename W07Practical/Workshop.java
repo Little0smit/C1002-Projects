@@ -2,8 +2,19 @@ public class Workshop{
 	string venue;
 	int registrationFee;
 	Attendees[] attendee;
+	static attendeeCount = 1;
 	Presentation[] presentations;
+	static presCount = 1;
 
+	public void registerAsAttendee(Attendees[] attendee){
+		this.attendee[attendeeCount] = attendee;
+		attendeeCount++;
+	}
+
+	public void addPresentation(Presentation[] presentation){
+		this.presentations[presCount] = presentation;
+		presCount++;	
+	}
 	public void printSchedule(){
 	if (presentations != null){
 			for (Presentation presentation: presentations){
@@ -13,6 +24,9 @@ public class Workshop{
 			}
 		}
 	}
+
+	
+
 
 	public static void main(string args[]){
 	}
