@@ -46,19 +46,19 @@ public class W07Practical {
 		// create a few presentations and initialise them
 		Presentation pres1 = new Presentation();
 		pres1.title = "Ubiquitous Computing";
-		pres1.time = "1200";
+		pres1.time = 1200;
 		pres1.duration = 45;
 		pres1.presenter = presenter1;
 
 		Presentation pres2 = new Presentation();
 		pres2.title = "Memories for Life";
-		pres2.time = "1300";
+		pres2.time = 1300;
 		pres2.duration = 35;
 		pres2.presenter = presenter2;
 
 		Presentation pres3 = new Presentation();
 		pres3.title = "Learning for Life";
-		pres3.time = "1400";
+		pres3.time = 1400;
 		pres3.duration = 60;
 		pres3.presenter = presenter3;
 

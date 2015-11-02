@@ -2,9 +2,9 @@ public class Workshop{
 	string venue;
 	int registrationFee;
 	Attendees[] attendee;
-	static attendeeCount = 1;
+	static int attendeeCount = 1;
 	Presentation[] presentations;
-	static presCount = 1;
+	static int presCount = 1;
 
 	public void registerAsAttendee(Attendees[] attendee){
 		this.attendee[attendeeCount] = attendee;
